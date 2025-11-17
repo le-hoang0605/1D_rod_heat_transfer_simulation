@@ -42,7 +42,7 @@ def create_rounded_rectangle(canvas, x1, y1, x2, y2, radius=20, **kwargs):
     return canvas.create_polygon(points, **kwargs, smooth=True, splinesteps=20)
 
 def create_gui():
-    global gui_root, gui_widgets
+    global gui_root
     gui_root = tk.Tk()
     gui_root.title("Heat Transfer Simulator")
     gui_root.geometry("600x500")
